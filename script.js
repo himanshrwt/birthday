@@ -12,7 +12,7 @@ const personName = "JAYA";
 // यहां Birthday की तारीख बदलें
 // Format: YYYY-MM-DD
 
-const birthdayDate = "2026-09-30";
+const birthdayDate = "2026-09-29";
 
 
 
