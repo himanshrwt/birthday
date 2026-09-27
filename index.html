@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+
+<body>
+
+    <audio id="birthdayMusic" preload="auto">
+         <source src="birthday.mp3" type="audio/mpeg">
+        </audio>
+
+    <!-- Background -->
+    <div class="stars"></div>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+    </div>
+
+
+    <!-- Main Website -->
+
+    <section class="container">
+
+        <div class="card">
+            <!-- Birthday Photo Watermark -->
+    <div class="birthday-watermark">
+        <img src="birthday.jpg" alt="Birthday Photo">
+    </div>
+
+            <div class="cake">
+                🎂
+            </div>
+
+
+            <p class="small-title">
+                A LITTLE SURPRISE FOR YOU
+            </p>
+
+
+            <h1>
+                Happy Birthday
+                <span id="name"></span>
+                💖
+            </h1>
+
+
+            <p class="intro">
+                आज का दिन थोड़ा और खूबसूरत है,
+                क्योंकि आज तुम्हारा जन्मदिन है।
+            </p>
+
+
+            <!-- Countdown -->
+
+            <div class="countdown">
+
+                <div>
+                    <strong id="days">00</strong>
+                    <span>Days</span>
+                </div>
+
+                <div>
+                    <strong id="hours">00</strong>
+                    <span>Hours</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">00</strong>
+                    <span>Minutes</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">00</strong>
+                    <span>Seconds</span>
+                </div>
+
+            </div>
+
+
+            <!-- Main Quote -->
+
+            <div class="quote">
+
+                <span class="quote-mark">
+                    “
+                </span>
+
+                <p id="quote">
+                    कुछ लोग जिंदगी में आते नहीं,
+                    बल्कि जिंदगी को खूबसूरत बना जाते हैं।
+                </p>
+
+                <span class="quote-mark end">
+                    ”
+                </span>
+
+            </div>
+
+
+            <!-- Birthday Message -->
+
+            <div class="message">
+
+                <p id="message">
+
+                    Happy Birthday JAYA 🎉🎂, 
+                    may you always remain healthy and happy (smiling). ✨
+
+                </p>
+
+            </div>
+
+
+            <!-- Surprise Button -->
+
+            <button onclick="showSurprise()">
+                ✨ एक छोटा सा Surprise
+            </button>
+
+
+            <!-- Hidden Surprise -->
+
+            <div id="surprise"
+                 class="surprise">
+
+                <div class="big-cake">
+                    🎂
+                </div>
+                <h2>
+                    You are Special ✨
+                </h2>
+
+                <p>
+                    तुम्हारी जिंदगी का आने वाला हर साल
+                    पिछले साल से ज्यादा खूबसूरत हो।
+                </p>
+
+                <p class="final-line">
+                    जन्मदिन की ढेर सारी शुभकामनाएँ! 🎂✨
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Confetti -->
+
+    <div id="confetti"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
